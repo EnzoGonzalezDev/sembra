@@ -31,6 +31,18 @@ $(window).on("load", function () {
     $(this).addClass("button-color-active");
   });
 
+    //Detecta click en botones para seleccionar color SEMBRA4000
+    var colorButton = $(".color-button");
+    var muestraImg = $("#muestra4000 img");
+  
+    colorButton.click(function () {
+      var nameImg = `./${this.id}.jpg`;
+  
+      muestraImg.attr("src", nameImg);
+      colorButton.removeClass("button-color-active");
+      $(this).addClass("button-color-active");
+    });
+
   //Detecta click en botones para seleccionar color SEMBRA MICROPERFODADO
   var colorButtonMP = $(".color-button-microperforado");
   var muestraImgMP = $("#muestra-microperforado img");

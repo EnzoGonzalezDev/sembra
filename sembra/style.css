@@ -189,6 +189,7 @@ section#first-view a strong {
     font-family: "TT Lakes black";
 }
 
+section#s4000,
 section#s7000,
 section#s11000,
 section#microperforado,
@@ -200,7 +201,7 @@ section#screen-exterior {
     height: 100vh;
     overflow: hidden;
 }
-
+section#s4000 article,
 section#s7000 article,
 section#s11000 article,
 section#microperforado article,
@@ -214,6 +215,7 @@ section#screen-exterior article {
     background: rgba(0,0,0,.05);
 }
 
+section#s4000 article h2,
 section#s7000 article h2,
 section#s11000 article h2,
 section#microperforado article h2,
@@ -225,6 +227,7 @@ section#screen-exterior article h2 {
     font-family: "TT Lakes Black", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+section#s4000 article h2 small,
 section#s7000 article h2 small,
 section#s11000 article h2 small,
 section#microperforado article h2 small,
@@ -232,6 +235,7 @@ section#screen-exterior article h2 small {
     color: rgba(0, 0, 0, 0.6);
 }
 
+section#s4000 article table,
 section#s7000 article table,
 section#s11000 article table,
 section#microperforado article table,
@@ -241,6 +245,7 @@ section#screen-exterior article table {
     box-sizing: border-box;
 }
 
+section#s4000 article table tbody,
 section#s7000 article table tbody,
 section#s11000 article table tbody,
 section#microperforado article table tbody,
@@ -248,6 +253,7 @@ section#screen-exterior article table tbody {
     font-size: 90%;
 }
 
+section#s4000 article table tbody tr td,
 section#s7000 article table tbody tr td,
 section#s11000 article table tbody tr td,
 section#microperforado article table tbody tr td,
@@ -385,12 +391,27 @@ span#sembra7000-negro {
     background: rgba(31, 36, 42, 1);
 }
 
+/* Sembra 4000 */ 
+span#sembra4000-vo {
+    background:rgb(35,86,71);
+}
+
+span#sembra4000-b {
+    background: rgb(207,207,206);
+}
+
+span#sembra4000-g {
+    background:rgb(98,96,97);
+}
+
+span#sembra4000-n {
+    background: rgb(26,26,26);
+}
 
 
 
 
-
-
+section#s4000 article table tbody tr td span,
 section#s7000 article table tbody tr td span,
 section#s11000 article table tbody tr td span,
 section#microperforado article table tbody tr td span,
@@ -400,6 +421,8 @@ section#screen-exterior article table tbody tr td span {
     transform: scale(1);
 }
 
+
+section#s4000 article table tbody tr td span:hover,
 section#s7000 article table tbody tr td span:hover,
 section#s11000 article table tbody tr td span:hover,
 section#microperforado article table tbody tr td span:hover,
@@ -413,6 +436,7 @@ td.tabla-clave {
     padding-right: 2vw !important;
 }
 
+section#s4000 figure,
 section#s7000 figure,
 section#s11000 figure,
 section#microperforado figure,
@@ -423,7 +447,7 @@ section#screen-exterior figure {
 }
 
 
-
+section#s4000 figure img,
 section#s7000 figure img,
 section#s11000 figure img,
 section#microperforado figure img,
@@ -850,6 +874,11 @@ section#contact div#form p button#submitButton {
         background-image: url(./img/Slide-SEMBRA-7000-mobile.jpg);
     }
 
+    section#first-view a:nth-child(1) {
+        background-attachment: scroll;
+        background-image: url(./img/Slide-SEMBRA-4000-mobile.jpg);
+    }
+
     section#first-view a:nth-child(2) {
         background-attachment: scroll;
         background-image: url(./img/Slide-SEMBRA-BLACKOUT-EXTERIOR-mobile.jpg);
@@ -870,6 +899,7 @@ section#contact div#form p button#submitButton {
         background-image: url(./img/Slide-SEMBRA-SCREEN-EXTERIOR-mobile.jpg);
     }
 
+    section#s4000,
     section#s7000,
     section#screen-exterior {
         flex-direction: column;
@@ -886,6 +916,7 @@ section#contact div#form p button#submitButton {
         height: auto;
     }
 
+    section#s4000 article,
     section#s7000 article,
     section#s11000 article,
     section#microperforado article,
@@ -895,6 +926,7 @@ section#contact div#form p button#submitButton {
         margin: 6vw 0 0;
     }
 
+    section#s4000 article h2,
     section#s7000 article h2,
     section#s11000 article h2,
     section#microperforado article h2,
@@ -920,6 +952,7 @@ section#contact div#form p button#submitButton {
         height: 18px;
     }
 
+    section#s4000 figure,
     section#s7000 figure,
     section#s11000 figure,
     section#microperforado figure,
