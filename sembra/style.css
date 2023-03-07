@@ -391,6 +391,7 @@ span#sembra7000-negro {
     background: rgba(31, 36, 42, 1);
 }
 
+
 /* Sembra 4000 */ 
 span#sembra4000-vo {
     background:rgb(35,86,71);
@@ -874,10 +875,7 @@ section#contact div#form p button#submitButton {
         background-image: url(./img/Slide-SEMBRA-7000-mobile.jpg);
     }
 
-    section#first-view a:nth-child(1) {
-        background-attachment: scroll;
-        background-image: url(./img/Slide-SEMBRA-4000-mobile.jpg);
-    }
+
 
     section#first-view a:nth-child(2) {
         background-attachment: scroll;
@@ -905,7 +903,7 @@ section#contact div#form p button#submitButton {
         flex-direction: column;
         height: auto;
     }
-
+    section#s4000,
     section#s11000 {
         flex-direction: column-reverse;
         height: auto;
