@@ -20,26 +20,26 @@ $(window).on("load", function () {
   });
 
   //Detecta click en botones para seleccionar color SEMBRA7000
-  var colorButton = $(".color-button");
-  var muestraImg = $("#muestra7000 img");
+  var colorButton7 = $(".color-button");
+  var muestraImg7 = $("#muestra7000 img");
 
-  colorButton.click(function () {
-    var nameImg = `./${this.id}.jpg`;
+  colorButton7.click(function () {
+    var nameImg7 = `./${this.id}.jpg`;
 
-    muestraImg.attr("src", nameImg);
-    colorButton.removeClass("button-color-active");
+    muestraImg7.attr("src", nameImg7);
+    colorButton7.removeClass("button-color-active");
     $(this).addClass("button-color-active");
   });
 
     //Detecta click en botones para seleccionar color SEMBRA4000
-    var colorButton = $(".color-button");
-    var muestraImg = $("#muestra4000 img");
+    var colorButton4 = $(".color-button-4");
+    var muestraImg4 = $("#muestra4000 img");
   
-    colorButton.click(function () {
-      var nameImg = `./${this.id}.jpg`;
+    colorButton4.click(function () {
+      var nameImg4 = `./${this.id}.jpg`;
   
-      muestraImg.attr("src", nameImg);
-      colorButton.removeClass("button-color-active");
+      muestraImg4.attr("src", nameImg4);
+      colorButton4.removeClass("button-color-active");
       $(this).addClass("button-color-active");
     });
 

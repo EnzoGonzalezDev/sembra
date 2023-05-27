@@ -273,6 +273,7 @@ td.colors-container {
 }
 
 span.color-button,
+span.color-button-4,
 span.color-button-11,
 span.color-button-microperforado,
 span.color-button-screen-exterior {
@@ -325,6 +326,10 @@ span#sembra7000-na {
 
 span#sembra7000-vo {
     background: rgba(46, 111, 113, 1);
+}
+
+span#sembra7000-vm {
+    background: rgb(65,52,40);
 }
 
 span#sembra7000-vc {
@@ -394,7 +399,7 @@ span#sembra7000-negro {
 
 /* Sembra 4000 */ 
 span#sembra4000-vo {
-    background:rgb(35,86,71);
+    background:rgb(35,86,71) !important;
 }
 
 span#sembra4000-b {
