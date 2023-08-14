@@ -313,6 +313,19 @@ span#sembra11000-vc {
 span#sembra11000-n {
     background: rgb(58,58,63);
 }
+
+span#sembra11000-ac {
+    background: rgb(34,102,172);
+}
+
+span#sembra11000-r {
+    background: rgb(193,21,11);
+}
+
+span#sembra11000-a {
+    background: rgb(253,225,125)
+    ;
+}
  
 /*  sembra7000 */
 span.color-button-screen-exterior {
