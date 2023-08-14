@@ -474,6 +474,12 @@ section#screen-exterior figure img {
     width: 100%;
 }
 
+h3 {
+    font-family: "TT Lakes Black", Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6)
+}
+
 /*
 section#screen-exterior figure img {
     transform: translateY(-25%);
@@ -765,6 +771,7 @@ section#contact {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 section#contact h2 {
