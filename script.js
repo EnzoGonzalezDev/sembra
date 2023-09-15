@@ -12,7 +12,9 @@ $(window).on("load", function () {
   var muestraImgS = $("#muestra11000 img");
 
   colorButtonS.click(function () {
-    var nameImgS = `./${this.id}.jpg`;
+    //var nameImgS = `./${this.id}.jpg`;
+    // https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/11000/sembra11000-a.webp
+    var nameImgS = `https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/11000/${this.id}.webp`;
 
     muestraImgS.attr("src", nameImgS);
     colorButtonS.removeClass("button-color-active");
@@ -24,7 +26,9 @@ $(window).on("load", function () {
   var muestraImg7 = $("#muestra7000 img");
 
   colorButton7.click(function () {
-    var nameImg7 = `./${this.id}.jpg`;
+    //https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/7000/sembra7000-a.webp
+    //var nameImg7 = `./${this.id}.jpg`;
+    var nameImg7 = `https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/7000/${this.id}.webp`;
 
     muestraImg7.attr("src", nameImg7);
     colorButton7.removeClass("button-color-active");
@@ -36,7 +40,9 @@ $(window).on("load", function () {
     var muestraImg4 = $("#muestra4000 img");
   
     colorButton4.click(function () {
-      var nameImg4 = `./${this.id}.jpg`;
+      //https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/4000/sembra4000-g.webp
+      //var nameImg4 = `./${this.id}.jpg`;
+      var nameImg4 = `https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/4000/${this.id}.webp`;
   
       muestraImg4.attr("src", nameImg4);
       colorButton4.removeClass("button-color-active");
@@ -48,7 +54,9 @@ $(window).on("load", function () {
   var muestraImgMP = $("#muestra-microperforado img");
 
   colorButtonMP.click(function () {
-    var nameImgMP = `./${this.id}.jpg`;
+    //https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Microperforado/microperforado-azul.webp
+    var nameImgMP = `https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Microperforado/${this.id}.webp`;
+    //var nameImgMP = `./${this.id}.jpg`;
 
     muestraImgMP.attr("src", nameImgMP);
     colorButtonMP.removeClass("button-color-active");
@@ -60,7 +68,9 @@ $(window).on("load", function () {
   var muestraImgSE = $("#muestra-screen-exterior img");
 
   colorButtonSE.click(function () {
-    var nameImgSE = `./${this.id}.jpg`;
+    //https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Screen-Exterior/screen-exterior-beige.webp
+    var nameImgSE = `https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Screen-Exterior/${this.id}.webp`;
+    //var nameImgSE = `./${this.id}.jpg`;
 
     muestraImgSE.attr("src", nameImgSE);
     colorButtonSE.removeClass("button-color-active");
@@ -649,31 +659,31 @@ $(window).on("load", function () {
     switch (currentCristal) {
       case 1:
         sectionCristal.html(nodeC1);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 2:
         sectionCristal.html(nodeC2);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 3:
         sectionCristal.html(nodeC3);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 4:
         sectionCristal.html(nodeC4);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 5:
         sectionCristal.html(nodeC5);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 6:
         sectionCristal.html(nodeC6);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 7:
         sectionCristal.html(nodeC7);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;    }
   });
 
@@ -711,31 +721,31 @@ $(window).on("load", function () {
     switch (currentCristal) {
       case 1:
         sectionCristal.html(nodeC1);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 2:
         sectionCristal.html(nodeC2);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 3:
         sectionCristal.html(nodeC3);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 4:
         sectionCristal.html(nodeC4);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 5:
         sectionCristal.html(nodeC5);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
        case 6:
         sectionCristal.html(nodeC6);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
       case 7:
         sectionCristal.html(nodeC7);
-        $("#cristal figure img").attr("src", "./cristal.jpg");
+        $("#cristal figure img").attr("src", "https://cdngroup.sfo3.cdn.digitaloceanspaces.com/sembra-images/Telas/Cristal/cristal.webp");
         break;
     }
   });
