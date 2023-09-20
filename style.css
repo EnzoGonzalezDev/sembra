@@ -33,6 +33,19 @@
     text-decoration: none; 
 }
 
+section#s4000 article,
+section#s7000 article,
+section#screen-exterior article {
+    order: 1; /* o puedes dejarlo por defecto, ya que order: 0 es el valor inicial */
+}
+
+section#s4000 figure,
+section#s11000 figure,
+section#screen-exterior figure {
+    order: 2; /* o cualquier número mayor que el order del article */
+}
+
+
 .separador {
     background-color: rgba(249, 178, 77, 1);
     height: 5rem;
@@ -158,7 +171,7 @@ section#first-view a span {
     display: block;
     flex-direction: column;
 }
-
+/* 
 section#first-view a:nth-child(1) {
     background: url(./img/Slide-SEMBRA-7000.jpg);
 }
@@ -177,7 +190,7 @@ section#first-view a:nth-child(4) {
 
 section#first-view a:nth-child(5) {
     background: url(./img/Slide-SEMBRA-SCREEN-EXTERIOR.jpg);
-}
+} */
 
 section#first-view a:hover {
     filter: grayscale(0);
@@ -200,6 +213,7 @@ section#screen-exterior {
     background: white;
     height: 100vh;
     overflow: hidden;
+    flex-direction: row;
 }
 section#s4000 article,
 section#s7000 article,
@@ -922,17 +936,36 @@ section#contact div#form p button#submitButton {
         background-image: url(./img/Slide-SEMBRA-SCREEN-EXTERIOR-mobile.jpg);
     } */
 
+
+    section#s4000 article,
+    section#s7000 article,
+    section#s11000 article,
+    section#microperforado article,
+    section#screen-exterior article{
+        order: 2; /* o puedes dejarlo por defecto, ya que order: 0 es el valor inicial */
+    }
+
+    section#s4000 figure,
+    section#s7000 figure,
+    section#s11000 figure,
+    section#microperforado figure,
+    section#screen-exterior figure{
+        order: 1; /* o cualquier número mayor que el order del article */
+    }
+
     section#s4000,
     section#s7000,
-    section#screen-exterior {
-        flex-direction: column;
-        height: auto;
-    }
-    section#s4000,
-    section#s11000 {
+    section#s11000,
+    section#screen-exterior{
         flex-direction: column-reverse;
         height: auto;
     }
+    /* section#s4000,
+    section#s7000,
+    section#s11000 {
+        flex-direction: column-reverse !important;
+        height: auto;
+    } */
 
     section#microperforado {
         flex-direction: column-reverse;
